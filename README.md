@@ -54,15 +54,15 @@ cd weather-api
 ---
 ### ✅ Postman – Current Weather Data
 #### Current Weather for City
-![currentweatherforcity1.JPG](..%2F..%2FweatherapiPics%2Fcurrentweatherforcity1.JPG)
+![currentweatherforcity1.JPG](/screenshots/currentweatherforcity1.JPG)
 
 > Demonstrates the `/weather/current?location=chennai` endpoint fetching real-time weather data.
 
-![currentweatherforcity2.JPG](..%2F..%2FweatherapiPics%2Fcurrentweatherforcity2.JPG)
+![currentweatherforcity2.JPG](/screenshots/currentweatherforcity2.JPG)
 
 > Demonstrates the `/weather/current?location=nagercoil` endpoint fetching real-time weather data.
 
-![currentweatherforcityerror1.JPG](..%2F..%2FweatherapiPics%2Fcurrentweatherforcityerror1.JPG)
+![currentweatherforcityerror1.JPG](/screenshots/currentweatherforcityerror1.JPG)
 
 > Demonstrates the `/weather/current?location=hjkfahfhafhakfdhh` endpoint error handling for invalid city names.
 
@@ -71,34 +71,34 @@ cd weather-api
 ### ✅ Postman – Weather Forecasting Search Data
 #### Weather forecasting for number of days for a particular city
 
-![weatherforecast1.JPG](..%2F..%2FweatherapiPics%2Fweatherforecast1.JPG)
+![weatherforecast1.JPG](/screenshots/weatherforecast1.JPG)
 
 > Demonstrates the `/weather/forecast?location=chennai&days=3` endpoint returning forecasting data.
 
-![weatherforecast2.JPG](..%2F..%2FweatherapiPics%2Fweatherforecast2.JPG)
+![weatherforecast2.JPG](/screenshots/weatherforecast2.JPG)
 
 > Demonstrates the `weather/forecast?location=alappuzha&days=10` endpoint returning forecasting data.
 
-![weatherforecasterror1.JPG](..%2F..%2FweatherapiPics%2Fweatherforecasterror1.JPG)
+![weatherforecasterror1.JPG](/screenshots/weatherforecasterror1.JPG)
 
 > Demonstrates the `/weather/forecast?location=chennai&days=19` endpoint error handling invalid number of days.
 ---
 ### ✅ Postman – Location Search Data
 #### Weahter data based fuzzy location search
 
-![locationsearch1.JPG](..%2F..%2FweatherapiPics%2Flocationsearch1.JPG)
+![locationsearch1.JPG](/screenshots/locationsearch1.JPG)
 
-![locationsearch1_2.JPG](..%2F..%2FweatherapiPics%2Flocationsearch1_2.JPG)
+![locationsearch1_2.JPG](/screenshots/locationsearch1_2.JPG)
 
 > Demonstrates the `/locations/search?q=chen` endpoint returning weather data for locations based on fuzzy search.
 
-![locationsearch2.JPG](..%2F..%2FweatherapiPics%2Flocationsearch2.JPG)
+![locationsearch2.JPG](/screenshots/locationsearch2.JPG)
 
-![locationsearch2_2.JPG](..%2F..%2FweatherapiPics%2Flocationsearch2_2.JPG)
+![locationsearch2_2.JPG](/screenshots/locationsearch2_2.JPG)
 
 > Demonstrates the `/locations/search?q=bangalo` endpoint returning weather data for locations based on fuzzy search.
 
-![locationsearcherror.JPG](..%2F..%2FweatherapiPics%2Flocationsearcherror.JPG)
+![locationsearcherror.JPG](/screenshots/locationsearcherror.JPG)
 
 > Demonstrates the `/locations/search?q=943hkhjjsnhjs` endpoint error invalid names.
 
@@ -107,7 +107,7 @@ cd weather-api
 ### ✅ Health Check Endpoint And Rate Limiting
 #### Health check status and uptime of the application
 
-![healthcheck.JPG](..%2F..%2FweatherapiPics%2Fhealthcheck.JPG)
+![healthcheck.JPG](/screenshots/healthcheck.JPG)
 
 > Simple `/health` endpoint showing the application is up and running status and uptime of the application.
 
@@ -115,7 +115,7 @@ cd weather-api
 
 ### ✅ Rate Limiting Error
 
-![ratelimiting.JPG](..%2F..%2FweatherapiPics%2Fratelimiting.JPG)
+![ratelimiting.JPG](/screenshots/ratelimiting.JPG)
 
 > API response when rate limit is exceeded (handled by Bucket4j), returning `429 Too Many Requests`.
 
@@ -123,9 +123,9 @@ cd weather-api
 
 ### ✅ Swagger UI – API Documentation
 
-![swaggerapi.JPG](..%2F..%2FweatherapiPics%2Fswaggerapi.JPG)
+![swaggerapi.JPG](/screenshots/swaggerapi.JPG)
 
-![swaggerapi2.JPG](..%2F..%2FweatherapiPics%2Fswaggerapi2.JPG)
+![swaggerapi2.JPG](/screenshots/swaggerapi2.JPG)
 
 ---
 
