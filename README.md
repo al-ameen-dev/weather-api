@@ -4,7 +4,8 @@ A Spring Boot RESTful API that aggregates **weather** and **location data** from
 Includes rate limiting, response caching, logging, and Swagger UI for easy testing.
 
 ---
-
+``` For the demo purpose i rate limited 3 requests per minute. So after 3 requests it will show too many request and 429 status code. We can easily configure to any request in RateLimitFilter class.```
+---
 ## 🚀 Features
 
 - ✅ Current weather and forecast data
