@@ -1,0 +1,15 @@
+server:
+  port: 8000
+
+spring:
+  application:
+    name: weatherApi
+  cache:
+    type: caffeine
+
+logging:
+  level:
+    root: INFO
+url:
+  open-meteo-api: https://api.open-meteo.com/v1
+  photon-komoot-api: https://photon.komoot.io/
